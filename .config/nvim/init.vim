@@ -18,6 +18,12 @@ if dein#load_state('/home/yoshihide/.cache/dein')
   call dein#add('Shougo/neosnippet.vim')
   call dein#add('Shougo/neosnippet-snippets')
   call dein#add('fatih/vim-go')
+  call dein#add('tpope/vim-fugitive')
+  call dein#add('airblade/vim-gitgutter')
+  call dein#add('scrooloose/nerdtree')
+  call dein#add('vim-airline/vim-airline')
+  call dein#add('christoomey/vim-tmux-navigator')
+
   " Required:
   call dein#end()
   call dein#save_state()
