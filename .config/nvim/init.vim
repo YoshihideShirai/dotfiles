@@ -15,9 +15,9 @@ if dein#load_state('/home/yoshihide/.cache/dein')
   call dein#add('/home/yoshihide/.cache/dein/repos/github.com/Shougo/dein.vim')
 
   " Add or remove your plugins here like this:
-  "call dein#add('Shougo/neosnippet.vim')
-  "call dein#add('Shougo/neosnippet-snippets')
-
+  call dein#add('Shougo/neosnippet.vim')
+  call dein#add('Shougo/neosnippet-snippets')
+  call dein#add('fatih/vim-go')
   " Required:
   call dein#end()
   call dein#save_state()
@@ -28,9 +28,9 @@ filetype plugin indent on
 syntax enable
 
 " If you want to install not installed plugins on startup.
-"if dein#check_install()
-"  call dein#install()
-"endif
+if dein#check_install()
+  call dein#install()
+endif
 
 "End dein Scripts-------------------------
 

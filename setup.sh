@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DOT_FILES=()
-DOT_CONFIG_FILES=(nvim)
+DOT_CONFIG_FILES=( nvim dein )
 
 for file in ${DOT_FILES[@]}
 do
