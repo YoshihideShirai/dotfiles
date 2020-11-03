@@ -44,3 +44,10 @@ set list
 set listchars=tab:>-
 set ts=4
 set sw=4
+
+map <C-g> :Gtags 
+map <C-i> :Gtags -f %<CR>
+map <C-j> :GtagsCursor<CR>
+map <C-n> :cn<CR>
+map <C-p> :cp<CR>
+
