@@ -40,3 +40,7 @@ endif
 
 "End dein Scripts-------------------------
 
+set list
+set listchars=tab:>-
+set ts=4
+set sw=4
