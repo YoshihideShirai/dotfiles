@@ -23,7 +23,7 @@ if dein#load_state('/home/yoshihide/.cache/dein')
   call dein#add('scrooloose/nerdtree')
   call dein#add('vim-airline/vim-airline')
   call dein#add('christoomey/vim-tmux-navigator')
-
+  call dein#add('vim-scripts/gtags.vim')
   " Required:
   call dein#end()
   call dein#save_state()
